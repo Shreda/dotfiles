@@ -45,3 +45,6 @@ set breakindent
 " Ensures word-wrap does not split words
 set formatoptions=1
 set lbr
+" show next matched string at the center of the screen
+nnoremap n nzz
+nnoremap N Nzz
