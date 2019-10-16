@@ -56,3 +56,5 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 " Create shortcut to save changes to file we opened without sudo
 cnoremap w!! execute 'silent! write !sudo tee % > /dev/null' <bar> edit!
+" Make explorer open files in different split pane
+let g:netrw_browse_split = 4
