@@ -48,3 +48,10 @@ set lbr
 " show next matched string at the center of the screen
 nnoremap n nzz
 nnoremap N Nzz
+" Change the keys used to switch between windows
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+" Create shortcut to save changes to file we opened without sudo
+cnoremap w!! execute 'silent! write !sudo tee % > /dev/null' <bar> edit!
