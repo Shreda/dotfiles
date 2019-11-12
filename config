@@ -186,4 +186,3 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
