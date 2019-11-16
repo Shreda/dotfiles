@@ -28,9 +28,9 @@ font pango:monospace 8
 # the arrows is not convenient
 #
 # Set the modifier key to the windows key
-set $mod Mod4
+set $mod Mod1
 # Set the super key to the alt key. Will be used to launch applications
-set $sup Mod1
+set $sup Mod4
 
 bindsym $sup+p exec passmenu.sh
 bindsym $sup+Shift+p exec passmenu.sh --type
@@ -55,6 +55,10 @@ bindsym $mod+d exec dmenu_run
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+#
+
+bindsym $sup+k workspace next
+bindsym $sup+j workspace prev
 
 # change focus
 bindsym $mod+$left focus left
