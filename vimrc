@@ -37,7 +37,7 @@ set number
 " Color settings for better color
 set t_Co=256
 set t_ut=
-colorscheme codedark
+" colorscheme codedark
 set laststatus=2
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 set wildmenu
