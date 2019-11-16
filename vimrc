@@ -41,7 +41,7 @@ set t_ut=
 set laststatus=2
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 set wildmenu
-set spell
+" set spell
 " Indents word-wrapped lines as much as the parent line
 set breakindent
 " Ensures word-wrap does not split words
