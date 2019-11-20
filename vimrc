@@ -9,7 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'jiangmiao/auto-pairs'
+" Plugin 'jiangmiao/auto-pairs'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
