@@ -38,6 +38,7 @@ set t_Co=256
 set t_ut=
 colorscheme molokai
 set laststatus=2
+set cursorline
 " set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 set wildmenu
 " set spell
