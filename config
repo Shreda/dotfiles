@@ -49,10 +49,12 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start firefox
 bindsym $mod+Shift+f exec firefox
 
+# gnome screenshot -i
+bindsym $mod+Shift+s exec "gnome-screenshot -i"
 
 # start naut
-
 bindsym $mod+Shift+n exec nautilus
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
